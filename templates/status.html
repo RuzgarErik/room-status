@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="refresh" content="2">                
+	<title>{{ title }}</title>
+
+	<style>
+		input[type=submit] {
+    padding:10px 15px; 
+    background:#ccc; 
+    border:10 10;
+    cursor:pointer;
+    -webkit-border-radiuspx;
+    border-radius: 5px;
+    align-self: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #1E3EC1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.topnav {
+	background-color: #D1DCF5;
+	padding: 30px;
+	text-align: center;
+
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+</style>
+
+</head>
+<body>
+<div class="header">
+<img src="static/newbanner.jpg" width="872px" height="318px"></img>
+</div>
+<div class="topnav">
+<h1>{{ title }}</h1>
+</div>
+</body>
+</html>
