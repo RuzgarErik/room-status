@@ -4,6 +4,6 @@
 [x] Sends notifications thru PushBullet <br />
 [x] Status page under /status
 ### Features to Add/Change
-[ ] Better UI design.<
+[ ] Better UI design.
 
 [My Website](http://ruzgarerik.github.io/)
